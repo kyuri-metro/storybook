@@ -1,0 +1,27 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+import { NpmPackageLinks } from '../components/NpmPackageLinks'
+
+<Meta title="说明/Introduction" />
+
+# @kyuri-metro 线路号方块生成器
+
+本站点是 [@kyuri-metro](https://www.npmjs.com/org/kyuri-metro) 组织下各 `-svg-generator` npm 包的交互展示。在左侧选择生成器 Story，用 **Controls** 调整线路号、高度、颜色等参数，即可预览 SVG，并下载 SVG、PNG、JPG、WebP。
+
+<NpmPackageLinks />
+
+## 使用方式
+
+```bash
+npm install @kyuri-metro/shmetro-line-id-block-2025-svg-generator
+```
+
+```ts
+import { generateLineIdBlock2025Svg } from '@kyuri-metro/shmetro-line-id-block-2025-svg-generator'
+
+const svg = generateLineIdBlock2025Svg({
+  lineNumber: '16',
+  height: 100,
+})
+```
+
+各版本的 API 与参数说明以对应 npm 包 README 为准；本 Storybook 仅作可视化试用与导出参考。

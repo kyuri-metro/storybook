@@ -7,6 +7,14 @@ export type KyuriMetroGeneratorPackage = {
 
 export const kyuriMetroGeneratorPackages: KyuriMetroGeneratorPackage[] = [
   {
+    name: '@kyuri-metro/shmetro-numeric-floor-sticker-2025-svg-generator',
+    npmUrl:
+      'https://www.npmjs.com/package/@kyuri-metro/shmetro-numeric-floor-sticker-2025-svg-generator',
+    description: '2025 版上海地铁数字地贴（线路号箭头）SVG 生成器',
+    storyPath:
+      '?path=/story/kyuri-metro-shmetro-numeric-floor-sticker-2025-svg-generator--default',
+  },
+  {
     name: '@kyuri-metro/shmetro-line-id-block-2025-svg-generator',
     npmUrl: 'https://www.npmjs.com/package/@kyuri-metro/shmetro-line-id-block-2025-svg-generator',
     description: '2025 版上海地铁线路号方块 SVG 生成器',

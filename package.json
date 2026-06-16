@@ -20,6 +20,7 @@
     "@kyuri-metro/shmetro-line-id-block-2020-svg-generator": "^0.1.9",
     "@kyuri-metro/shmetro-line-id-block-2020-type-2-svg-generator": "^0.1.6",
     "@kyuri-metro/shmetro-line-id-block-2025-svg-generator": "^0.1.8",
+    "@kyuri-metro/shmetro-numeric-floor-sticker-2025-svg-generator": "^0.1.1",
     "@kyuri-metro/shmetro-palette": "^0.1.1",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"

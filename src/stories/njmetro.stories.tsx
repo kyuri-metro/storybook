@@ -56,7 +56,7 @@ const meta = {
     docs: {
       description: {
         component:
-          '调用 npm 包 `@kyuri-metro/njmetro-line-id-block-svg-generator`。线路号支持 0–99 与 S0–S9（输入如 `S1` 或 `s1`）。',
+          '调用 npm 包 `@kyuri-metro/njmetro-line-id-block-svg-generator`（0.3.0 起基于 FZHei-B01 参考稿）。线路号支持 0–99 与 S0–S9（输入如 `S1` 或 `s1`）。',
       },
     },
   },

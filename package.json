@@ -15,7 +15,7 @@
   "type": "module",
   "private": "true",
   "dependencies": {
-    "@kyuri-metro/njmetro-line-id-block-svg-generator": "^0.2.3",
+    "@kyuri-metro/njmetro-line-id-block-svg-generator": "^0.3.0",
     "@kyuri-metro/njmetro-palette": "^0.1.1",
     "@kyuri-metro/shmetro-line-id-block-2020-svg-generator": "^0.1.9",
     "@kyuri-metro/shmetro-line-id-block-2020-type-2-svg-generator": "^0.1.6",

@@ -1,5 +1,6 @@
 import { SHMETRO_LINE_COLORS } from '@kyuri-metro/shmetro-palette'
 import { NJMETRO_LINE_COLORS } from '@kyuri-metro/njmetro-palette'
+import { DEFAULT_LINE_ID_BLOCK_FONT_FAMILY } from '@kyuri-metro/njmetro-line-id-block-svg-generator'
 import type { InputType } from 'storybook/internal/types'
 
 export type LineIdBlockStoryArgs = {
@@ -25,7 +26,7 @@ export const defaultNjmetroArgs: LineIdBlockStoryArgs = {
   height: 100,
   foreground: '#000000',
   background: '#666666',
-  fontFamily: 'Helvetica, "Helvetica Neue", Arial, "Segoe UI", sans-serif',
+  fontFamily: DEFAULT_LINE_ID_BLOCK_FONT_FAMILY,
   useMetroPalette: true,
 }
 

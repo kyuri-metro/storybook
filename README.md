@@ -12,6 +12,7 @@
 
 | 包 | npm |
 | --- | --- |
+| `@kyuri-metro/shmetro-hanging-sign-line-label-2025-svg-generator` | [npm](https://www.npmjs.com/package/@kyuri-metro/shmetro-hanging-sign-line-label-2025-svg-generator) |
 | `@kyuri-metro/shmetro-line-id-block-2025-svg-generator` | [npm](https://www.npmjs.com/package/@kyuri-metro/shmetro-line-id-block-2025-svg-generator) |
 | `@kyuri-metro/shmetro-line-id-block-2020-svg-generator` | [npm](https://www.npmjs.com/package/@kyuri-metro/shmetro-line-id-block-2020-svg-generator) |
 | `@kyuri-metro/shmetro-line-id-block-2020-type-2-svg-generator` | [npm](https://www.npmjs.com/package/@kyuri-metro/shmetro-line-id-block-2020-type-2-svg-generator) |

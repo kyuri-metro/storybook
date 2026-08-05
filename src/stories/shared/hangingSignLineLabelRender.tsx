@@ -13,6 +13,7 @@ type GeneratorProps = {
   colors?: HangingSignLineColorArg[]
   latinFontFamily?: string
   cjkFontFamily?: string
+  whiteBorder?: boolean
 }
 
 export function renderHangingSignLineLabel(

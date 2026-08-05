@@ -12,6 +12,7 @@ export type HangingSignLineLabelStoryArgs = {
   latinFontFamily: string
   cjkFontFamily: string
   useMetroPalette: boolean
+  whiteBorder: boolean
 }
 
 export const defaultHangingSignLineLabelArgs: HangingSignLineLabelStoryArgs = {
@@ -25,6 +26,7 @@ export const defaultHangingSignLineLabelArgs: HangingSignLineLabelStoryArgs = {
   latinFontFamily: 'Arial, Helvetica, sans-serif',
   cjkFontFamily: 'SimHei, "Microsoft YaHei", sans-serif',
   useMetroPalette: true,
+  whiteBorder: false,
 }
 
 export const hangingSignLineLabelArgTypes = {
@@ -54,6 +56,11 @@ export const hangingSignLineLabelArgTypes = {
     name: '使用官方色板',
     description: '开启时各方块按自身线路号取色；关闭时使用下方 colors 数组。',
   },
+  whiteBorder: {
+    control: 'boolean',
+    name: '白边',
+    description: '为各方块向内侧绘制宽 0.025a 的白边，不增大方块外轮廓。',
+  },
 } satisfies Record<keyof HangingSignLineLabelStoryArgs, InputType>
 
 export function parseLineNumbersInput(value: string) {
@@ -69,5 +76,6 @@ export function toHangingSignLineLabelProps(args: HangingSignLineLabelStoryArgs)
     height: args.height,
     latinFontFamily: args.latinFontFamily,
     cjkFontFamily: args.cjkFontFamily,
+    whiteBorder: args.whiteBorder,
   }
 }

@@ -7,6 +7,15 @@ export type KyuriMetroGeneratorPackage = {
 
 export const kyuriMetroGeneratorPackages: KyuriMetroGeneratorPackage[] = [
   {
+    name: '@kyuri-metro/shmetro-outdoor-directional-sign-2025-svg-generator',
+    npmUrl:
+      'https://www.npmjs.com/package/@kyuri-metro/shmetro-outdoor-directional-sign-2025-svg-generator',
+    description:
+      '2025 版上海地铁站外指向牌（左/右向、普线/市域）SVG 生成器 — TODO：还原 Line *, *, … 字间距压缩',
+    storyPath:
+      '?path=/story/kyuri-metro-shmetro-outdoor-directional-sign-2025-svg-generator--default',
+  },
+  {
     name: '@kyuri-metro/shmetro-hanging-sign-line-label-2025-svg-generator',
     npmUrl:
       'https://www.npmjs.com/package/@kyuri-metro/shmetro-hanging-sign-line-label-2025-svg-generator',
